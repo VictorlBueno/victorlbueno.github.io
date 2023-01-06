@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+
+body {
+    width: 100vw,
+    height: 100vh;
+    background-color: #EBBBB1;
+    font-family: 'Inter', sans-serif;
+}
+
+.cobrir {
+    background-color: black;
+    width: 180px;
+    height: 45px;
+    position: fixed;
+    bottom: 7px;
+    right: 0px;
+    border-radius: 20px 0 0 20px;
+}
+
+.link {
+    color: black;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #616DB7;
+}
+
+.links {
+    margin: 50px 0 0 120px;
+    display: flex;
+    gap: 53px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.conteudo {
+    margin: 100px 0 0 120px;
+    width: 530px;
+}
+
+.azul {
+    color: #616DB7;
+}
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 40px;
+}
+
+.redes_sociais {
+    display: flex;
+    gap: 18px;
+}
+
+.rede {
+    background: #616DB7;
+    width: 160px;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede:hover {
+    background: #505ca3;
+}
+
+.rede_texto {
+    padding-left: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.z {
+    z-index: 10;
+}
+
+.listas {
+    margin: 100px 0 0 120px;
+    display: grid;
+    grid-template-areas: "programacao devOps" "dataScience design" "outros outros";
+    width: 600px;
+    grid-row-gap: 35px;
+    grid-column-gap: 40px;
+}
+
+.lista {
+    //border: 1px solid red;
+}
+
+.programacao {
+    grid-area: programacao;
+}
+
+.devOps {
+    grid-area: devOps;
+}
+
+.dataScience {
+    grid-area: dataScience;
+}
+
+.design {
+    grid-area: design;
+}
+
+.outros {
+    grid-area: outros;
+}
+
+.titulo_lista {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    color: #1f1e1e;
+}
+
+li {
+    line-height: 1.3em;
+}
+
+.hover_azul:hover {
+    color: #616DB7;
+}
+
+.termometro {
+    display: flex;
+}
+
+.barra {
+    background: rgb(97,109,183);
+    background: linear-gradient(180deg, rgba(97,109,183,1) 0%, rgba(97,109,183,1) 30%, rgba(0,255,115,1) 100%);
+    border: 1px solid #323232;
+    width: 10px;
+    height: 465px;
+    border-radius: 50px;
+    position: relative;
+    left: 14.47px;
+    z-index: -1
+}
+
+.bolinha {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    border: 1px solid #323232;
+}
+
+.avancado {
+    background: #616db7;
+}
+
+.iniciante {
+    background: #00ff73;
+    position: relative;
+    top: 457px;
+    left: -17px;
+}
+
+.barra_items {
+    margin: 40px 0 0 120px;
+    display: flex;
+}
+
+.linguagens {
+    width: 600px;
+}
+
+.flex {
+    display: flex;
+    align-text: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tecnologias {
+    margin: 100px 0 0 120px;
+    line-height: 20px;
+    display: grid;
+    grid-template-areas: "front back" "cloud data" "ux ux";
+    grid-row-gap: 15px;
+    grid-column-gap: 20px;
+}
+
+.tecnologias > div > p {
+    font-size: 15px;
+}
+
+.front {
+    grid-area: front
+}
+
+.back {
+    grid-area: back
+}
+
+.cloud {
+    grid-area: cloud
+}
+
+.data {
+    grid-area: data
+}
+
+.ux {
+    grid-area: ux
+}
